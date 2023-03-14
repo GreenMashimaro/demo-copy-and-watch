@@ -1,0 +1,16 @@
+{
+  "name": "1081_copy-and-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cpx 'src/**/*.scss' dist",
+    "watch": "pnpm run build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  }
+}
